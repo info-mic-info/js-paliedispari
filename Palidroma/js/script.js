@@ -4,10 +4,10 @@
 
 
 
- 
-function palindromo (word){
-
 let word = prompt(`Inserisci una parola`)
+ 
+function palindromo (word) {
+
 
 let div_word= word.split("")
 console.log(div_word)
@@ -28,4 +28,5 @@ else{
 
 }
 
+palindromo (word)
 
